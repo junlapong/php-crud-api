@@ -24,7 +24,7 @@ ResponseUtils::output($response);
 
 /*
 
-sqlite3 /tmp/db-crud.sqlite
+sqlite3 ./db/crud.sqlite
 
 CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL);
 INSERT INTO users(name) VALUES ('Jman');
